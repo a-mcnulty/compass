@@ -1,0 +1,49 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="~!G=75-^BZ=~n?[Yz!/d">Degrees</variable></variables><block type="device_forever" id="0U2RkJ6#XQDqROy]mF*U" x="133" y="-555"><statement name="HANDLER"><block type="controls_if" id="^.{9=bsox[tqFS@*bD#;"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean" id="YkeU]Q{BLgHV/q}psaGF"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="=$gepVlC75gW^#E}_dU!"><field name="OP">GTE</field><value name="A"><shadow type="math_number" id="nq_qlRRpIk*81!6N:0s`"><field name="NUM">337.5</field></shadow></value><value name="B"><shadow type="math_number" id="VOVKF-PH@O2Tn38.UtEB"><field name="NUM">22.5</field></shadow></value></block></value><statement name="DO0"><block type="basic_show_arrow" id="7t|R3aO[w4s_QX4u!]TI"><value name="i"><shadow type="device_arrow" id="mIBK-k,:G.E$MoZx0CY$"><field name="arrow">ArrowNames.North</field></shadow></value></block></statement><statement name="ELSE"><block type="device_show_leds" id="3Z}hdsRy=z@YeQtuLXv7"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . # . # . 
+        . . # . .
+        `</field></block></statement></block></statement></block><block type="device_forever" id="YRTai;K2m(x:+]Mq{0ZV" x="1049" y="-366"><statement name="HANDLER"><block type="controls_if" id="?%x~)5=i(/78LN3TEAd`"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean" id="d:*?wElWI#E!W,1)CLiW"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="Y!PlX[ad%t+?,W3!qYDQ"><field name="OP">LTE</field><value name="A"><shadow type="math_number" id="[sMTn_IzOF-{D11(7+:v"><field name="NUM">67.5</field></shadow></value><value name="B"><shadow type="math_number" id="{IE+KV~qf2sbL^sfK{UZ"><field name="NUM">112.5</field></shadow></value></block></value><statement name="DO0"><block type="basic_show_arrow" id="iTTZFm|_7a4c8,g=0uX;"><value name="i"><shadow type="device_arrow" id="X9@^g1auM3?:}#Il=vvu"><field name="arrow">ArrowNames.East</field></shadow></value></block></statement><statement name="ELSE"><block type="device_show_leds" id="`.b#6-W};`4zH/4gJoY4"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . # . # . 
+        . . . . .
+        `</field></block></statement></block></statement></block><block type="device_forever" id="Tx7jALg3|?L0Jo(csJ-J" x="668" y="-61"><statement name="HANDLER"><block type="controls_if" id="X_3.FR@VI6FY.Z85!B-u"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean" id="fVkNJ+=yB8PY(XHNrO3S"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="OP%}G]bcMQP|aw/wpP,#"><field name="OP">LTE</field><value name="A"><shadow type="math_number" id="a4rLpoi4*(x158OR3[rj"><field name="NUM">22.5</field></shadow></value><value name="B"><shadow type="math_number" id="N6H,cYK`b2I-^BS.~vY+"><field name="NUM">67.5</field></shadow></value></block></value><statement name="DO0"><block type="basic_show_arrow" id="R_Ax_hr99CXTM=/~986$"><value name="i"><shadow type="device_arrow" id="K;o(pjN-=zr4e,y:*daw"><field name="arrow">ArrowNames.NorthEast</field></shadow></value></block></statement><statement name="ELSE"><block type="device_show_leds" id=",$u!hmyBn:C,/Hu{ad0-"><field name="LEDS">`
+        . . . . . 
+        . . # . . 
+        . . # . . 
+        . # . # . 
+        . . . . .
+        `</field></block></statement></block></statement></block><block type="device_forever" id="(~5a$@V6KfU]1%WjiD7K" x="0" y="0"><statement name="HANDLER"><block type="controls_if" id="`.,zW/i:ZSYY4fkSDxtC"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean" id="rh|FYrqDL5k_AMO2yC?f"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="DK[xM#Sq?QklUvCbQbA-"><field name="OP">LTE</field><value name="A"><shadow type="math_number" id=":gMpg|H;bA{lxcT88CtY"><field name="NUM">112.5</field></shadow></value><value name="B"><shadow type="math_number" id="[NxBLL6=/X!gLaTkP%G9"><field name="NUM">157.5</field></shadow></value></block></value><statement name="DO0"><block type="basic_show_arrow" id="t4xm2#1U}DkvM4D_OC9l"><value name="i"><shadow type="device_arrow" id="DppSW5cL3-U*6#_b0Lg4"><field name="arrow">ArrowNames.SouthEast</field></shadow></value></block></statement><statement name="ELSE"><block type="device_show_leds" id="sM;D:p,Rpu0t]EZmaw{R"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . # . # # 
+        . . . . .
+        `</field></block></statement></block></statement></block><block type="device_forever" id="^m[/c_wABdK1?po~}1-0" x="260" y="505"><statement name="HANDLER"><block type="controls_if" id=":{Zp@lXnghf9g]Z7;o.j"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean" id="eh_xn?(j,k0k!Y1*Y}|e"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id=".YD#fHz4JO^7JI5m@xFZ"><field name="OP">LTE</field><value name="A"><shadow type="math_number" id="G[+yah4h:th:6zE).-PX"><field name="NUM">157.5</field></shadow></value><value name="B"><shadow type="math_number" id="EW3Kd3vh,J(KlIt+-:6:"><field name="NUM">202.5</field></shadow></value></block></value><statement name="DO0"><block type="basic_show_arrow" id="JZdH#nFibz*HTMviL8)~"><value name="i"><shadow type="device_arrow" id="@c4Y5a?LS}EeK08Mv5-A"><field name="arrow">ArrowNames.South</field></shadow></value></block></statement><statement name="ELSE"><block type="device_show_leds" id="t%,?b+6I:hnisen_3u-f"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        # # . # . 
+        . . . . .
+        `</field></block></statement></block></statement></block><block type="device_forever" id="u#ZnP0Lw1Rd{yuP.)sI1" x="614" y="1061"><statement name="HANDLER"><block type="controls_if" id="EwSfhiDkcsT]|p5P+Sqw"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean" id="*!k1/Pe(e,@*EB07hq4M"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="P/0TBRpZSEc)H4EyN1vF"><field name="OP">LTE</field><value name="A"><shadow type="math_number" id="n|Bmxx;|v71cJKwz1PXd"><field name="NUM">247.5</field></shadow></value><value name="B"><shadow type="math_number" id="@SP=#%94bDV{7/z4(Nck"><field name="NUM">292.5</field></shadow></value></block></value><statement name="DO0"><block type="basic_show_arrow" id="_~UyrpHk9;sUU,KEO-c$"><value name="i"><shadow type="device_arrow" id="{-pO%KUw5-~Ax94}G/22"><field name="arrow">ArrowNames.West</field></shadow></value></block></statement><statement name="ELSE"><block type="device_show_leds" id="D2@g9=+|wf~:-eCRj,^^"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . # . # . 
+        . . . . .
+        `</field></block></statement></block></statement></block><block type="device_forever" id="at$CS72wVKMY3**p1Npf" x="-33" y="1543"><statement name="HANDLER"><block type="controls_if" id="BLn8(CO|v!Y6dr@nuAAs"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean" id="c5W#=`$5%0W{jfWufB~M"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="E*@fo!xS)ZL:o,,Z!Z8T"><field name="OP">LTE</field><value name="A"><shadow type="math_number" id="_4ERA%ct_[zhZq_Bg5|m"><field name="NUM">202.5</field></shadow></value><value name="B"><shadow type="math_number" id="*%!M|#^Y(4LFT4I,vH71"><field name="NUM">247.5</field></shadow></value></block></value><statement name="DO0"><block type="basic_show_arrow" id="5P[4Wv5+h;+_T5GuzEC5"><value name="i"><shadow type="device_arrow" id="yTA}H=zZjOE]*@_)Fhbr"><field name="arrow">ArrowNames.SouthWest</field></shadow></value></block></statement><statement name="ELSE"><block type="device_show_leds" id="{g~Y4-#Ek7rd1a(nw7(:"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . # . # . 
+        . . . . .
+        `</field></block></statement></block></statement></block><block type="device_forever" id="f1wpS}f_urN1;JXl~ys9" x="672" y="1583"><statement name="HANDLER"><block type="controls_if" id="AD,2OroodWSzezlq6xH("><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean" id="^^Qnpk{KX(Hm;|Ir5i@I"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="%NI[0i{iy;4A3]QUrx2h"><field name="OP">LTE</field><value name="A"><shadow type="math_number" id="uf_qfrPhHWi+@Ql)MzHT"><field name="NUM">292.5</field></shadow></value><value name="B"><shadow type="math_number" id="%h03sogK7ra8`)D{KY6,"><field name="NUM">337.5</field></shadow></value></block></value><statement name="DO0"><block type="basic_show_arrow" id="3|L:zJp7`Y-Si7wy.7No"><value name="i"><shadow type="device_arrow" id="mO;[b+Oa.*$wRs|M_5-b"><field name="arrow">ArrowNames.NorthWest</field></shadow></value></block></statement><statement name="ELSE"><block type="device_show_leds" id="6(0Oh-,ptYw/y_prXt`e"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . # . # . 
+        . . . . .
+        `</field></block></statement></block></statement></block></xml>
