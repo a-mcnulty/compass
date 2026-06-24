@@ -1,22 +1,19 @@
 for (let index = 0; index < 10000; index++) {
-    if (0 < 0 || 0 < 0) {
+    if (input.compassHeading() >= 337.5 || input.compassHeading() <= 22.5) {
         basic.showArrow(ArrowNames.North)
-    } else if ((22.5 as any) <= (67.5 as any)) {
+    } else if (input.compassHeading() >= 22.5 || input.compassHeading() <= 67.5) {
         basic.showArrow(ArrowNames.NorthEast)
-    } else if ((67.5 as any) <= (112.5 as any)) {
+    } else if (input.compassHeading() >= 67.5 || input.compassHeading() <= 112.5) {
         basic.showArrow(ArrowNames.East)
-    } else if ((112.5 as any) <= (157.5 as any)) {
+    } else if (input.compassHeading() >= 112.5 || input.compassHeading() <= 157.5) {
         basic.showArrow(ArrowNames.SouthEast)
-    } else if ((157.5 as any) <= (202.5 as any)) {
+    } else if (input.compassHeading() >= 157.5 || input.compassHeading() <= 202.5) {
         basic.showArrow(ArrowNames.South)
-    } else if ((202.5 as any) <= (247.5 as any)) {
+    } else if (input.compassHeading() >= 202.5 || input.compassHeading() <= 247.5) {
         basic.showArrow(ArrowNames.SouthWest)
-    } else if ((247.5 as any) <= (292.5 as any)) {
+    } else if (input.compassHeading() >= 247.5 || input.compassHeading() <= 292.5) {
         basic.showArrow(ArrowNames.West)
     } else {
         basic.showArrow(ArrowNames.NorthWest)
     }
 }
-loops.everyInterval(500, function () {
-	
-})
