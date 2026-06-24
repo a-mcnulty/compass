@@ -1,17 +1,18 @@
-for (let index = 0; index < 10000; index++) {
-    if (input.compassHeading() >= 337.5 || input.compassHeading() <= 22.5) {
+while (true) {
+    input.calibrateCompass()
+    if (input.compassHeading() >= 337.5 && input.compassHeading() <= 22.5) {
         basic.showArrow(ArrowNames.North)
-    } else if (input.compassHeading() >= 22.5 || input.compassHeading() <= 67.5) {
+    } else if (input.compassHeading() >= 22.5 && input.compassHeading() <= 67.5) {
         basic.showArrow(ArrowNames.NorthEast)
-    } else if (input.compassHeading() >= 67.5 || input.compassHeading() <= 112.5) {
+    } else if (input.compassHeading() >= 67.5 && input.compassHeading() <= 112.5) {
         basic.showArrow(ArrowNames.East)
-    } else if (input.compassHeading() >= 112.5 || input.compassHeading() <= 157.5) {
+    } else if (input.compassHeading() >= 112.5 && input.compassHeading() <= 157.5) {
         basic.showArrow(ArrowNames.SouthEast)
-    } else if (input.compassHeading() >= 157.5 || input.compassHeading() <= 202.5) {
+    } else if (input.compassHeading() >= 157.5 && input.compassHeading() <= 202.5) {
         basic.showArrow(ArrowNames.South)
-    } else if (input.compassHeading() >= 202.5 || input.compassHeading() <= 247.5) {
+    } else if (input.compassHeading() >= 202.5 && input.compassHeading() <= 247.5) {
         basic.showArrow(ArrowNames.SouthWest)
-    } else if (input.compassHeading() >= 247.5 || input.compassHeading() <= 292.5) {
+    } else if (input.compassHeading() >= 247.5 && input.compassHeading() <= 292.5) {
         basic.showArrow(ArrowNames.West)
     } else {
         basic.showArrow(ArrowNames.NorthWest)
