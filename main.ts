@@ -1,5 +1,5 @@
-basic.forever(function () {
-    if ((337.5 as any) >= (22.5 as any)) {
+for (let index = 0; index < 10000; index++) {
+    if (0 < 0 || 0 < 0) {
         basic.showArrow(ArrowNames.North)
     } else if ((22.5 as any) <= (67.5 as any)) {
         basic.showArrow(ArrowNames.NorthEast)
@@ -16,4 +16,7 @@ basic.forever(function () {
     } else {
         basic.showArrow(ArrowNames.NorthWest)
     }
+}
+loops.everyInterval(500, function () {
+	
 })

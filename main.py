@@ -1,21 +1,19 @@
-heading = 0
+input.calibrate_compass()
 
 def on_forever():
-    global heading
-    heading = input.compass_heading()
-    if heading < 23 or heading >= 338:
+    if (337.5) >= (22.5):
         basic.show_arrow(ArrowNames.NORTH)
-    elif heading < 68:
+    elif (22.5) <= (67.5):
         basic.show_arrow(ArrowNames.NORTH_EAST)
-    elif heading < 113:
+    elif (67.5) <= (112.5):
         basic.show_arrow(ArrowNames.EAST)
-    elif heading < 158:
+    elif (112.5) <= (157.5):
         basic.show_arrow(ArrowNames.SOUTH_EAST)
-    elif heading < 203:
+    elif (157.5) <= (202.5):
         basic.show_arrow(ArrowNames.SOUTH)
-    elif heading < 248:
+    elif (202.5) <= (247.5):
         basic.show_arrow(ArrowNames.SOUTH_WEST)
-    elif heading < 293:
+    elif (247.5) <= (292.5):
         basic.show_arrow(ArrowNames.WEST)
     else:
         basic.show_arrow(ArrowNames.NORTH_WEST)
